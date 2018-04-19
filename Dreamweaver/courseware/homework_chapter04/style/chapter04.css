@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+.color_red{
+	color:red;
+}
+
+.color_blue{
+	color:blue;
+}
+
+.font_weight{
+	font-weight:bold;
+}
+
+.box_red{
+	padding:0 5px;
+	margin:0 5px;
+	color:red; 
+	border:red solid 1px;
+}
+
+#author_info{
+	text-align:center;
+	padding:20px 0 50px 0;
+}
+#author_info h2{
+	height:50px;
+	line-height:50px;
+	font:"微软雅黑";
+	color:blue;
+}
+
+#author_info article{
+	font:14px "微软雅黑";
+	color:red;
+	height:30px;
+	line-height:30px;
+}
+
+#author_info a{
+	text-decoration:none;
+	color:blue;	
+}
+
+#author_info a:hover{
+	color:red;
+	text-decoration:underline;	
+}
+
+#goods_show, #requirements{
+	width:800px;
+	margin:0 auto;
+	border:#0FF solid 1px;
+	font-size:14px;
+}
+
+#left_show{
+	width:300px;
+	float:left;
+}
+
+#left_show p{
+	margin-top:20px;
+	text-align:center;
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+}
+
+#left_show span{
+	padding:0 5px;
+	float:left;
+	text-align:center;
+}
+
+#collect{
+	background:url(../images/collect.png) no-repeat left center;
+	text-indent:20px;
+}
+
+#share{
+	background:url(../images/share.png) no-repeat left center;
+	text-indent:20px;
+}
+
+
+#left_show a{
+	color:red;
+	text-decoration:none;
+}
+
+#left_show a:hover{
+	color:blue;
+}
+
+#right_show{
+	width:480px;
+	float:right;
+}
+
+#right_show header{
+	height:40px;
+	line-height:40px;
+	background:url(../images/title_bg.png) no-repeat left center;
+	font-size:18px;
+	font-weight:bold;
+	text-indent:70px;
+}
+
+#price{	
+	background-color:#EEF;
+	padding-left:10px;
+	margin-right:10px;
+}
+
+#other_info{
+	padding-left:10px;
+	margin-right:10px;
+}
+
+#right_show p{
+	color:gray;
+	font-size:14px;
+	height:30px;
+	line-height:30px;
+}
+
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.submit{
+	margin:10px;
+	width:150px;
+	height:40px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+
+}
+
+#submit1{
+	background-color:red;
+	color:white;
+}
+
+#submit2{
+	background-color:yellow;
+	color:red;
+}
+
+/*-------------Homework requirements---------------*/
+#requirements{
+	margin-top:30px;
+	padding:10px 0;
+	font-size:22px;
+	color:red;
+	font-weight:bold;
+}
+
+#requirements header{
+	text-indent:40px;
+	line-height:40px;	
+}
+
+#requirements ol{
+	padding-left:30px;
+	line-height:40px;	
+
+}

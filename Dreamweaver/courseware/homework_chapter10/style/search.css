@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	border:0;
+	margin:0;	
+}
+
+#top{
+	height:50px;
+	line-height:50px;
+	clear:both;	
+}
+
+#top_logo{
+	width:140px;
+	height:50px;
+	background:url(../images/logo_baidu_tiny.png) no-repeat center center;	
+	float:left;
+}
+
+#top_search{
+	width:720px;
+	float:left;	
+}
+
+#top_login{
+	float:right;
+}
+
+#div_tbSearch{
+	width:600px;
+	float:left;
+}
+
+#div_btnSearch{
+	width:100px;
+	height:32px;
+	text-align:center;
+	border:1px solid #69F;
+	background-color:#69F;
+	color:white;
+	font-weight:bold;
+	font-size:14px;
+	line-height:32px;
+	float:left;
+	margin:10px 0 0 1px;
+}
+
+#tbSearch{
+	width:600px;
+	height:30px;
+	line-height:30px;
+	border:1px solid silver;
+}
+
+
+#navigation{
+	border-top:1px solid silver;
+	background-color:#FFF2F2;
+}
+
+#navigation ul,#top_login ul{
+	list-style:none;	
+}
+
+#navigation li,#top_login li{
+	display:inline;
+	padding:0 20px;	
+	height:40px;
+	line-height:40px;
+}

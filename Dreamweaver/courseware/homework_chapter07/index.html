@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<title>响应式页面</title>
+<style type="text/css">
+html {
+	background:#3C3;
+}
+body {
+	font: 16px/1.5 museo-sans-rounded, "Helvetica Neue", Verdana, sans-serif;
+}
+img {
+	max-width: 100%;
+}
+.clear {
+	clear: both;
+}
+#content {
+	width: 95%;
+	margin: 30px auto;
+	padding: 2%;
+	background: url(images/html.jpg) repeat;
+}
+.headline {
+	text-align: center;
+	display: block;
+	border-bottom: 1px #2d2d2d solid;
+}
+
+.headline p {
+	font-size: 25px;
+	text-align:left;
+	text-indent:2em;
+}
+#content-secondary {
+	border-bottom: 1px solid #2d2d2d;
+	margin-bottom: 2em;
+	width: 100%
+}
+.item {
+	float: left;
+	line-height: 1.1;
+	margin: 0 5% 1.5em 0;
+	text-align: center;
+	width: 28%;	
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+.item p{
+	text-align:left;
+	text-indent:2em;	
+}
+.item img {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	display: block;
+	margin: 0 auto 1em;
+}
+#copyright {
+	text-align: center;
+}
+
+
+
+#author_info{
+	margin:0 auto;
+	text-align:center;
+	border-bottom:1px dashed silver;
+}
+
+#author_info h2{
+	height:40px;
+	line-height:40px;
+	color:blue;
+}
+
+#author_info p{
+	height:30px;
+	line-height:30px;
+	color:yellow;
+}
+
+#homework_requests{
+	text-align:left;
+	padding:5px 0 10px 50px;
+	font-size:16px;
+}
+
+#homework_request li{
+	height:30px;
+	line-height:30px;
+}
+
+@media screen and (max-width:600px) {
+.item {
+	float: none;
+	width: auto;
+}
+.headline p {
+	font-size: 16px;
+}
+
+}
+</style>
+</head>
+
+<body>
+<div id="author_info">
+  <h2>第七章作业 响应式布局</h2>
+  <p> 作者：欧新宇 &nbsp;
+    学号：2017000001 &nbsp;
+    完成日期：2017年9月30日 </p>
+  <div id="homework_requests">
+    <h3>作业要求：</h3>
+    <ol>
+      <li>模仿该页面完成响应式布局页面的设计,分辨率低于max-width:600px的时候自动变成单列。</li>
+      <li>合理使用div、h、p等多种html标签。</li>
+      <li>不要抄袭。多个同学使用同一商品提交作业，则分数平均到多个同学。</li>
+      <li>不要求完全一致，只需要尽力而为。</li>
+    </ol>
+  </div>
+</div>
+
+<section id="content">
+  <header class="headline">
+    <h2>苹果回应iPhone8爆裂事件：正了解情况 已为用户换机</h2>
+    <p>据台湾“东森新闻网”9月28日报道，中国台湾一名消费者给刚入手3天的iPhone 8 Plus充电时，手机外壳突然爆裂。9月29日，苹果公司称，目前公司正在了解情况，还没有进一步消息。据悉，中国台湾这名用户已经拿到换新手机，目前问题手机在经销商处。此前，有日本网友发推特称，在购买一部全新的iPhone 8 Plus后，刚拆开包装就发现屏幕碎裂，疑似因电池膨胀所致。</p>
+  </header>
+  <div id="content-secondary" class="values">
+    <div class="item">
+      <h2>苹果iPhone 8上市一周</h2>
+      <p>9月29日，苹果公司称，目前公司正在了解情况，还没有进一步消息。据悉，中国台湾这名用户已经拿到换新手机，目前问题手机在经销商处。</p>
+      <img src="images/01.jpg" ></div>
+    <div class="item">
+      <h2>Phone 8 Plus首爆案例出现在日本</h2>
+      <p>从两例iPhone 8P电池爆裂放出的照片看，电池膨胀导致手机屏幕裂开，但未见起火燃烧迹象。市场研究机构IHS分析师李怀斌接受澎湃新闻记者采访时表示，苹果的电池策略一直很保守，电池容量不是很大，两次事故应该是电池鼓胀，并非爆炸。</p>
+      <img src="images/02.jpg" ></div>
+    <div class="item">
+      <h2>Note 7爆炸图片</h2>
+      <p>截至目前，苹果未对外透露电池提供商的信息。三星也未证实向iPhone 8提供电池。不过，三星去年的Note 7爆燃事件最终让三星损失惨重，三星一开始也未意识到问题的严重性，最终导致全球范围内大召回，最终彻底放弃了Note 7这款产品。</p>
+      <img src="images/03.jpg"></div>
+    <div class="clear"></div>
+  </div>
+  <footer>
+    <div id="copyright">&copy; Copyright 2017-2020 欧新宇 All rights reserved</div>
+  </footer>
+</section>
+</body>
+</html>

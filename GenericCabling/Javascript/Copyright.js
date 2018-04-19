@@ -1,0 +1,1 @@
+﻿document.write("<footer id=\"Copyright\">Copyright &copy 2018 Xinyu Ou</footer>");

@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网站后台登陆页面</title>
+<link href="style/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="author_info">
+  <h2>第六章作业 登录注册界面</h2>
+  <p> 作者：欧新宇 &nbsp;
+    学号：2017000001 &nbsp;
+    完成日期：2017年9月29日 </p>
+  <div id="homework_requests">
+    <h3>作业要求：</h3>
+    <ol>
+      <li>模仿该页面完成注册页面的设计。</li>
+      <li>尽量使用表单验证完成灰色部分的表单验证功能。</li>
+      <li>使用多种不同的表单元素进行设置。</li>
+      <li>合理使用div、h、p等多种html标签。</li>
+      <li>使用表格table标签布局注册栏目。</li>
+      <li>不要抄袭。多个同学使用同一商品提交作业，则分数平均到多个同学。</li>
+      <li>不要求完全一致，只需要尽力而为。</li>
+    </ol>
+  </div>
+</div>
+<form action="Sucessful.html" method="get">
+<div id="main_top">
+  <header id="top_logo">
+    <div id="logo"> </div>
+    <div id="search">
+      <input name="iSearch" id="iSearch" type="text" class="input_search">
+    </div>
+  </header>
+  <div id="banner"></div>
+</div>
+<div id="main_content">
+  <div id="content">
+    <table>
+      <tr>
+        <td>用户名*：</td>
+        <td><input name="username" type="text" class="input_text" required pattern="[a-zA-Z0-9_]{4,16}"></td>
+        <td>4到16位的字母、数字、下划线</td>
+      </tr>
+      <tr>
+        <td>密码*：</td>
+        <td><input name="password" type="password" class="input_text" required></td>
+        <td>请输入密码</td>
+      </tr>
+      <tr>
+        <td>确认密码*：</td>
+        <td><input name="password_confirm" type="password" class="input_text" required></td>
+        <td>请再输入一遍您上面填写的密码</td>
+      </tr>
+      <tr>
+        <td>Email*：</td>
+        <td><input name="email" type="text" class="input_text" required pattern="^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$"></td>
+        <td>请准确填写，找回密码时使用</td>
+      </tr>
+      <tr>
+        <td>姓名*：</td>
+        <td><input name="name" type="text" class="input_text"></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>性别*：</td>
+        <td><label>
+            <input type="radio" name="Sex" value="Male" id="Sex_0" required>
+            男</label>
+          &nbsp;&nbsp;
+          <label>
+            <input type="radio" name="Sex" value="Female" id="Sex_1" required>
+            女</label></td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td colspan="3"><div id="table_reg">
+            <input name="reset" type="reset" class="button">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input name="submit" type="submit" class="button">
+          </div></td>
+      </tr>
+    </table>
+  </div>
+</div>
+</form>
+<footer id="main_footer">
+  <p><a href="#">关于我们</a> | <a href="#">学校地址</a> | <a href="#">校长信箱</a></p>
+  <p>&copy; Copyright 2017-2020 欧新宇 All rights reserved</p>
+  <p>地址：云南省昆明市学府路113号 邮编：650223 滇ICP备09012802号-4</p>
+</footer>
+</body>
+</html>
