@@ -8,7 +8,7 @@ document.write("<ul>");
 document.write("<li><a href=\"Default.html\">课程首页</a></li>");
 document.write("<li><a href=\"Syllabus.html\">教学计划</a></li>");
 document.write("<li><a href=\"Homeworks.html\">平时作业</a></li>");
-document.write("<li><a href=\"#\">考核要求</a></li>");
+document.write("<li><a href=\"Test.html\">考核要求</a></li>");
 document.write("<li><a href=\"Keywords.html\">缩略词</a></li>");
 document.write("</ul>");
 document.write("</div>");
