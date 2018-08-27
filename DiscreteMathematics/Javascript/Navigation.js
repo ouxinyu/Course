@@ -1,0 +1,15 @@
+﻿document.write("<nav id=\"HeaderNavigation\">");
+document.write("<div id=\"Container_HeaderNavigation\">");
+document.write("<a href=\"http:\//www.ynou.cn/\">");
+document.write("<img src=\"Images/ynou.png\" style=\"height:80px; float: left; margin:10px 20px;\">");
+document.write("</a>");
+document.write("<div id=\"Navigation\">");
+document.write("<ul>");
+document.write("<li><a href=\"Default.html\">课程首页</a></li>");
+document.write("<li><a href=\"Syllabus.html\">教学计划</a></li>");
+document.write("<li><a href=\"Homeworks.html\">平时作业</a></li>");
+document.write("<li><a href=\"Test.html\">考核要求</a></li>");
+document.write("</ul>");
+document.write("</div>");
+document.write("</div>");
+document.write("</nav>");
